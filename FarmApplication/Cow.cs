@@ -20,9 +20,9 @@ namespace FarmApplication
             switch (Type)
             {
                 case CowType.Meat:
-                    return -15;
+                    return 15;
                 case CowType.Milk:
-                    return -10;
+                    return 10;
                 default:
                     return 0;
             }

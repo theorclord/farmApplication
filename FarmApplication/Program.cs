@@ -26,7 +26,7 @@ namespace FarmApplication
             Console.WriteLine("Amount of food left " + SvennesFarm.FeedAmount);
 
             Console.WriteLine("Meat gained " + SvennesFarm.SlaugterAnimals());
-
+            Console.ReadKey();
         }
     }
 }

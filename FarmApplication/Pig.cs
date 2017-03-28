@@ -12,7 +12,7 @@ namespace FarmApplication
         private int appetite = 2;
         public int FeedConsumed()
         {
-            return -appetite*Age;
+            return appetite*Age;
         }
 
         public int SlaughterValue()
